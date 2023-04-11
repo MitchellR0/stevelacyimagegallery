@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles/main.css">
+
+    <link rel="shortcut icon" href="images/Logo_Black.webp" type="image/x-icon">
+
+    <title>Steve Lacy Image Gallery</title>
+</head>
+<body>
+    <header>
+        <img src="images/Logo_Black.webp" alt="Gemini Rights" title="Gemini Rights">
+        <h2>Steve Lacy Image Gallery</h2>
+    </header>
+    <main>
+        <!-- Photo Grid -->
+<div class="row"> 
+    <div class="column">
+        <img src="images/IMG_2996.JPG" style="width:100%">
+        <img src="images/IMG_2997.JPG" style="width:100%">
+        <img src="images/IMG_2998.JPG" style="width:100%">
+        <img src="images/IMG_2999.JPG" style="width:100%">
+        <img src="images/IMG_3001.JPG" style="width:100%">
+    </div>
+        
+    <div class="column">
+        <img src="images/IMG_3002.JPG" style="width:100%">
+        <img src="images/IMG_3003.JPG" style="width:100%">
+        <img src="images/IMG_3004.JPG" style="width:100%">
+        <img src="images/IMG_3005.JPG" style="width:100%">
+        <img src="images/IMG_3006.JPG" style="width:100%">
+    </div> 
+     
+    <div class="column">
+        <img src="images/IMG_3007.JPG" style="width:100%">
+        <img src="images/IMG_3008.JPG" style="width:100%">
+        <img src="images/IMG_3009.JPG" style="width:100%">
+        <img src="images/IMG_3010.JPG" style="width:100%">
+        <img src="images/IMG_3011.JPG" style="width:100%">
+    </div>
+    
+    <div class="column">
+        <img src="images/IMG_3012.JPG" style="width:100%">
+        <img src="images/IMG_3013.JPG" style="width:100%">
+        <img src="images/IMG_3014.JPG" style="width:100%">
+        <img src="images/IMG_3015.JPG" style="width:100%">
+        <img src="images/IMG_3016.JPG" style="width:100%">
+    </div>
+  </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="copyright"></span> Mitchell R</p>
+
+        <!-- Javascript - Get Current Year for the Footer -->
+        <script>
+            window.onload = function() {
+                var d = new Date();
+                document.getElementById("copyright").innerHTML = d.getFullYear();
+            }
+        </script>
+
+    </footer>
+</body>
+</html>
